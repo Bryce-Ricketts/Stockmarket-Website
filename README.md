@@ -1,12 +1,12 @@
-#Stock Market Wesbite
+# Stock Market Wesbite
 
-##Real-time API calls from AlphaVantage
+## Real-time API calls from AlphaVantage
 ---
 This utilises AlphaVantage's free API Global Quote, which allows 25 calls per day.
 
 [Follow this link to get your free API key](https://www.alphavantage.co/support/#api-key)
 
-###Below shows screenshots of the website working!
+### Below shows screenshots of the website working!
 
 <img width="1900" height="943" alt="Stockmarket-plus-1" src="https://github.com/user-attachments/assets/a6387dd7-8352-4299-b55f-68424c417c9d" />
 
