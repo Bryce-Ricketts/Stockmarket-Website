@@ -1,0 +1,270 @@
+body {
+    margin: 0px;
+}
+
+
+
+.stock-header{
+    background-color: rgb(8, 6, 116);
+}
+
+.header-flex{
+    display: flex;
+    align-items: center;
+    padding-left: 32px;
+    padding-right: 32px;
+    justify-content: space-between;
+    font-family: "Barlow Semi Condensed";
+}
+
+.header-flex h1 {
+    color:rgb(255, 255, 255);
+}
+
+.header-summary{
+    display: flex;
+}
+
+.header-portfolio {
+    display: flex;
+    padding: 8px;
+    margin-left: 24px;
+    margin-right: 24px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-stockcount {
+    display: flex;
+    padding: 8px;
+    margin-left: 24px;
+    margin-right: 24px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#dynamic-value {
+    color:rgb(255, 255, 255);
+    padding-bottom: 16px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+#dynamic-stocks {
+    color:rgb(255, 255, 255);
+    padding-bottom: 16px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.header-stockcount{
+    display: flex;
+    padding: 8px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.header-summary h2 {
+    font-size: medium;
+    color:rgb(255, 255, 255);
+}
+
+#search {
+    display: flex;
+    justify-content: center;
+    margin: 32px;
+    padding-top: 16px;
+    border: 16px;
+}
+
+#search-master {
+    background-color: rgb(245, 253, 253);
+    margin: 32px;
+    padding-bottom: 32px;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+#stock-search {
+    margin: 8px;
+    width: 128px;
+    height: 24px;
+    padding-left: 8px;
+}
+
+#search-button {
+    margin: 8px;
+    width: 128px;
+    font-family: "Barlow Semi Condensed";
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+#result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: "Barlow Semi Condensed";
+}
+
+#watchlist h3 {
+    font-size: x-large;
+    padding-left: 32px;
+    font-family: "Barlow Semi Condensed";
+}
+
+#watchlist-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 32px;
+    background-color: rgb(235, 247, 247);
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+#watchlist-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#watchlist-header button {
+    margin-right: 32px;
+    height: 32px;
+    font-family: "Barlow Semi Condensed";
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.date {
+    font-size: x-small;
+    font-family: "Barlow Semi Condensed";
+}
+
+#date-box {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    font-family: "Barlow Semi Condensed";
+}
+
+#summary h3 {
+    font-size: x-large;
+    padding-left: 32px;
+    font-family: "Barlow Semi Condensed";
+}
+
+
+#summary-section{
+    display: flex;
+    justify-content: center;
+    margin: 32px;
+    background-color: rgb(235, 247, 247);
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+#summary-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#summary-header button {
+    margin-right: 32px;
+    height: 32px;
+    font-family: "Barlow Semi Condensed";
+    font-weight: bold;
+}
+
+.watchlist-item {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 8px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Barlow Semi Condensed";
+    font-size: medium;
+    transition: 0.5s ease;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    align-items: center;
+}
+
+.count-bar {
+    width: 32px;
+}
+
+#result{
+    width: 256px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #ff4d4d;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    padding: 8px;
+}
+
+#add-to-watchlist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: fit-content;
+    margin-bottom: 8px;
+}
+
+.addPort {
+    background: transparent;
+    border: none;
+    color: #057c0f;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    font-size: x-large;
+}
+
+.remove-btn {
+    background: transparent;
+    border: none;
+    color: #ff4d4d;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    font-size: x-large;
+}
+
+#summary-section {
+    display: flex;
+    flex-direction: column;
+    font-family: "Barlow Semi Condensed";
+}
+
+.portfolio-item {
+    padding-left: 32px;
+    margin: 8px;
+    transition: 0.5s ease;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    align-items: center;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
